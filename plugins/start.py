@@ -7,15 +7,15 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-	Hello {message.from_user.first_name }
+        Hello {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram
 	**Document Or Video** and enter new file name to rename it Powerd ©️ @Tamil_Hackers_Moviess__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
-          InlineKeyboardButton("⚠️ Join ⚠️" ,url="https://t.me/All_language_movie_request_group"), 
+          InlineKeyboardButton("🌟 Join 🌟 " ,url="https://t.me/All_language_movie_request_group"), 
 	  InlineKeyboardButton("❤️ Subscribe ❤️", url="https://t.me/Tamil_Hackers_Moviess")
           ],[
-          InlineKeyboardButton("🔰 Channel 🔰", url="https://t.me/Tamil_Hackers_Moviess")
+          InlineKeyboardButton("✨ Channel ✨", url="https://t.me/Tamil_Hackers_Moviess")
           ]]
           )
         )
@@ -30,7 +30,8 @@ async def send_doc(client,message):
        filesize = humanize.naturalsize(file.file_size)
        fileid = file.file_id
        await message.reply_text(
-       f"""__What do you want me to do with this file?__\n**File Name** :- {filename}\n**File Size** :- {filesize}"""
+       f""" Hey👋 {message.from_user.first_name }
+       __✨What do you want me to do with this File **Replay Fast Don't Delay ©️Powerd by vinu😎**__\n**🗃️File Name** :- {filename}\n**📦File Size** :- {filesize}"""
        ,reply_to_message_id = message.message_id,
        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝 Rename ",callback_data = "rename")
        ,InlineKeyboardButton("Cancel✖️",callback_data = "cancel")  ]]))
