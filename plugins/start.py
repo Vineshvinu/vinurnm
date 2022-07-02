@@ -9,13 +9,13 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	Hello {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filenameto rename it__
+	**Document Or Video** and enter new filenameto rename it Powerd by Tamil Hackers Movies__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
-          InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/Mo_Tech_Group"), 
-	  InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/MoTech_YT")
+          InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/Tamil_Hackers_Moviess"), 
+	  InlineKeyboardButton("Subscribe ❤️", url="https://t.me/Tamil_Hackers_Moviess")
           ],[
-          InlineKeyboardButton("🧩 Deploy 🧩", url="https://youtu.be/7ALYUk-rYMc")
+          InlineKeyboardButton("🧩 Deploy 🧩", url="https://t.me/Tamil_Hackers_Moviess")
           ]]
           )
         )
