@@ -5,7 +5,7 @@
         "Renamer Bot",
         "Mongo DB"
     ],
-    "repository": "https://github.com/MRK-YT/RENAMER_BOT",
+    "repository": "https://github.com/Vineshvinu/vinurnm",
     "success_url": "https://telegram.dog/mo_tech_group",
     "env": {
         "APP_ID": {
@@ -24,7 +24,7 @@
             "description":"Add Your User ID @MT_ID_Bot"
         },
         "DB_URL": {
-            "description": "Your Mongo DB URL Obtained From https://youtu.be/mD9veNL7KoE",
+            "description": "Your Mongo DB URL Obtained From Vinesh vinu",
             "value": ""
         },
         "DB_NAME":{ 
