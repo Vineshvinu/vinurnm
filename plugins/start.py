@@ -7,15 +7,15 @@ from helper.database import  insert
 async def start(client,message):
 	insert(int(message.chat.id))
 	await message.reply_text(text =f"""
-        Hello {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram
-	**Document Or Video** and enter new file name to rename it Powerd ©️ @Tamil_Hackers_Moviess__
+        𝗛𝗲𝗹𝗹𝗼 {message.from_user.first_name }
+	__🅸 🅰🅼 🅵🅸🅻🅴 🆁🅴🅰🅽🅰🅼🅴🆁 🅱🅾🆃, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐬𝐞𝐧𝐭 🔼 𝐚𝐧𝐲 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+	**Document Or Video** 𝐚𝐧𝐝 𝐞𝐧𝐭𝐞𝐫 𝐧𝐞𝐰 𝐅𝐈𝐋𝐄 𝐧𝐚𝐦𝐞 𝐭𝐨 𝐫𝐞𝐧𝐚𝐦𝐞 𝐢𝐭 𝐏𝐨𝐰𝐞𝐫𝐝 ©️ **@Tamil_Hackers_Moviess**__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
-          InlineKeyboardButton("🌟 Join 🌟" ,url="https://t.me/All_language_movie_request_group"), 
-	  InlineKeyboardButton("❤️ Subscribe ❤️", url="https://t.me/Tamil_Hackers_Moviess")
+          InlineKeyboardButton("🌟 𝖩𝖮𝖨𝖭 🌟" ,url="https://t.me/All_language_movie_request_group"), 
+	  InlineKeyboardButton("❤️ 𝙎𝙐𝘽𝙎𝘾𝙍𝙄𝘽𝙀 ❤️", url="https://t.me/Tamil_Hackers_Moviess")
           ],[
-          InlineKeyboardButton("✨ Channel ✨", url="https://t.me/Tamil_Hackers_Moviess")
+          InlineKeyboardButton("✨ 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 ✨", url="https://t.me/Tamil_Hackers_Moviess")
           ]]
           )
         )
@@ -31,7 +31,7 @@ async def send_doc(client,message):
        fileid = file.file_id
        await message.reply_text(
        f""" Hey👋 {message.from_user.first_name }
-       __✨What do you want me to do with this File **Replay Fast Don't Delay ©️Powerd by vinu😎**__\n**🗃️File Name** :- {filename}\n**📦File Size** :- {filesize}"""
+       __✨𝚆𝚑𝚊𝚝 𝚍𝚘 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚖𝚎 𝚝𝚘 𝚍𝚘 𝚠𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝙵𝚒𝚕𝚎📦__\n**🗃️File Name** :- {filename}\n**📦File Size** :- {filesize}"""
        ,reply_to_message_id = message.message_id,
-       reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝 Rename ",callback_data = "rename")
-       ,InlineKeyboardButton("Cancel✖️",callback_data = "cancel")  ]]))
+       reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝 𝗥𝗘𝗡𝗔𝗠𝗘 ",callback_data = "rename")
+       ,InlineKeyboardButton("𝗖𝗔𝗡𝗖𝗘𝗟✖️",callback_data = "cancel")  ]]))
