@@ -15,7 +15,7 @@ async def start(client,message):
           InlineKeyboardButton("🌟 𝖩𝖮𝖨𝖭 🌟" ,url="https://t.me/All_language_movie_request_group"), 
 	  InlineKeyboardButton("❤️ 𝙎𝙐𝘽𝙎𝘾𝙍𝙄𝘽𝙀 ❤️", url="https://t.me/Tamil_Hackers_Moviess")
           ],[
-          InlineKeyboardButton("✨ 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 ✨", url="https://t.me/Tamil_Hackers_Moviess")
+          InlineKeyboardButton("✨ 𝖢𝖧𝖠𝖭𝖭𝖤𝖫 ✨", url="https://t.me/THM_OTT")
           ]]
           )
         )
@@ -31,7 +31,7 @@ async def send_doc(client,message):
        fileid = file.file_id
        await message.reply_text(
        f""" Hey👋 {message.from_user.first_name }
-       __✨𝚆𝚑𝚊𝚝 𝚍𝚘 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚖𝚎 𝚝𝚘 𝚍𝚘 𝚠𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝙵𝚒𝚕𝚎📦__\n**🗃️File Name** :- {filename}\n**📦File Size** :- {filesize}"""
+       __✨𝚆𝚑𝚊𝚝 𝚍𝚘 𝚢𝚘𝚞 𝚠𝚊𝚗𝚝 𝚖𝚎 𝚝𝚘 𝚍𝚘 𝚠𝚒𝚝𝚑 𝚝𝚑𝚒𝚜 𝙵𝚒𝚕𝚎📦__\n**🗃️File Name** :- ```{filename}```\n**📦File Size** :- {filesize}"""
        ,reply_to_message_id = message.message_id,
        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📝 𝗥𝗘𝗡𝗔𝗠𝗘 ",callback_data = "rename")
        ,InlineKeyboardButton("𝗖𝗔𝗡𝗖𝗘𝗟✖️",callback_data = "cancel")  ]]))
